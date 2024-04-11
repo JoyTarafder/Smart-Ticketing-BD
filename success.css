@@ -1,0 +1,140 @@
+.frame-child {
+    width: 718px;
+    height: 481px;
+    position: relative;
+    border-radius: 16px;
+    background-color: #fff;
+    display: none;
+    max-width: 100%;
+  }
+  .group-icon {
+    height: 97.9px;
+    width: 100px;
+    position: relative;
+    z-index: 1;
+  }
+  .group-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1px 0 0;
+  }
+  .success {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .thank-you-for,
+  .we-are-working {
+    margin-block-start: 0;
+    margin-block-end: 4px;
+    font-weight: 500;
+  }
+  .shortly-you-will {
+    margin: 0;
+    line-height: 167.19%;
+    font-weight: 300;
+  }
+  .thank-you-for-container {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .frame-item {
+    height: 56px;
+    width: 300px;
+    position: relative;
+    border-radius: 32px;
+    background-color: #27ae60;
+    display: none;
+  }
+  .continue1 {
+    width: 112.6px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .continue,
+  .rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: 15.5px 20px 15.5px 42px;
+    background-color: #27ae60;
+    width: 300px;
+    border-radius: 32px;
+    z-index: 1;
+  }
+  .rectangle-group:hover {
+    background-color: #40c77a;
+  }
+  .continue {
+    width: 524px;
+    padding: 0 20px;
+    max-width: 100%;
+  }
+  .thank-you-for-booking-our-bus-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 19px;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 35px;
+    max-width: 100%;
+    font-size: 20px;
+    color: #4a4a4a;
+  }
+  .frame-wrapper,
+  .rectangle-parent,
+  .success-modal-frame {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    width: 718px;
+    border-radius: 16px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 57px 38px 55px 49px;
+    gap: 38.1px;
+    max-width: 100%;
+  }
+  .success-modal-frame {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f2f1f1;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: 187px 20px 188px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 24px;
+    color: #27ae60;
+    font-family: Roboto;
+  }
