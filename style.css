@@ -787,7 +787,7 @@ body {
   padding: 0 0 12px;
   box-sizing: border-box;
 }
-.greenline-paribahan {
+.ena-paribahan {
   margin: 0;
   align-self: stretch;
   font-size: inherit;
@@ -795,7 +795,7 @@ body {
   font-family: inherit;
 }
 .coach-009-web-ac-business,
-.greenline-paribahan {
+.ena-paribahan {
   position: relative;
   z-index: 2;
 }
@@ -810,7 +810,7 @@ body {
   color: rgba(3, 7, 18, 0.6);
   font-family: Inter;
 }
-.greenline-paribahan-parent {
+.ena-paribahan-parent {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -819,7 +819,6 @@ body {
   gap: 12px;
   min-width: 203px;
   flex-shrink: 0;
-  debug_commit: f6aba90;
 }
 .frame-parent7 {
   width: 394.6px;
@@ -3716,8 +3715,8 @@ body {
   .ph-paribahan {
     font-size: var(--font-size-13xl);
   }
-  .greenline-paribahan {
-    font-size: 26px;
+  .ena-paribahan {
+    font-size: 16px;
   }
   .frame-child52 {
     width: 100%;
@@ -3841,8 +3840,8 @@ body {
   .ph-paribahan {
     font-size: 24px;
   }
-  .greenline-paribahan {
-    font-size: 19px;
+  .ena-paribahan {
+    font-size: 16px;
   }
   .frame-parent7,
   .next-btn1,
