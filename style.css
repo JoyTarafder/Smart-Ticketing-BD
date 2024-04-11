@@ -3417,9 +3417,12 @@ body {
   font-weight: 800;
   font-family: Raleway;
   color: #fff;
-  text-align: center;
-  display: inline-block;
-  min-width: 46px;
+}
+#nextButton:disabled,
+#nextButton[disabled]{
+  cursor: not-allowed;
+  background-color: #cccccc;
+  color: #666666;
 }
 .privacy-policy {
   cursor: pointer;
@@ -3702,9 +3705,6 @@ body {
   .lacks {
     font-size: 29px;
   }
-  .best-offers-for {
-    font-size: var(--font-size-13xl);
-  }
   .frame-parent3,
   .rectangle-parent1 {
     flex: 1;
@@ -3713,7 +3713,7 @@ body {
     flex-wrap: wrap;
   }
   .ph-paribahan {
-    font-size: var(--font-size-13xl);
+    font-size: 29px;
   }
   .ena-paribahan {
     font-size: 16px;
@@ -3893,9 +3893,7 @@ body {
   .total-price1 {
     flex-wrap: wrap;
   }
-  .next {
-    font-size: 16px;
-  }
+
   .terms-and-conditions-cancellat {
     gap: 21px;
   }
